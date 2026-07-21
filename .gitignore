@@ -1,0 +1,75 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# ==============================
+# Environment / Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Node / React
+# ==============================
+node_modules/
+
+# Frontend build output
+dist/
+build/
+
+# ==============================
+# Logs
+# ==============================
+*.log
+logs/
+
+# ==============================
+# Runtime / Generated Data
+# ==============================
+backend/uploads/
+backend/exports/
+backend/index/
+backend/indexes/
+
+backend/chat_sessions.json
+backend/users.json
+
+# ==============================
+# Backup / Archive Files
+# ==============================
+*.zip
+
+# ==============================
+# IDE / Editor
+# ==============================
+.vscode/
+.idea/
+
+# ==============================
+# OS Files
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Python Testing / Cache
+# ==============================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# Temporary Files
+# ==============================
+*.tmp
+*.temp
+backend/app/rate_limit_data.json
